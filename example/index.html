@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<link rel="stylesheet" href="../dist/webpack-vue-sass-boilerplate.css">
+		<style>
+			.hello-world {
+				margin: 5% auto auto;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="app"></div>
+
+        <script src="https://unpkg.com/vue"></script>
+		<script src="../dist/webpack-vue--sass-boilerplate.js"></script>
+
+		<script>
+			var HelloWorld = WebpackVueSassBoilerplate.HelloWorld;
+
+			new Vue({
+			    name: 'example',
+
+			    el: '#app',
+
+			    components: {
+			        helloWorld: HelloWorld
+			    },
+
+			    template: `<hello-world></hello-world>`
+			});
+
+
+		</script>
+	</body>
+</html>

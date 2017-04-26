@@ -1,0 +1,11 @@
+$color: #333 !default
+$border-color: #aaa !default
+
+.hello-world {
+	display: block;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid $border-color;
+	border-radius: 2px;
+	text-align: center;
+}
